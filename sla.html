@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+      
+    <h1>Cadastro de Alunos</h1>
+
+    <p>Este sistema permite o cadastro de alunos. Todos os campos com  <span>*</span> 
+    são obrigatórios!</p>
+
+    <form method="POST">
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+           <label for="txtNome">Nome completo <span>*</span> </label>
+           <input type="text" name="txtNome" placeholder="Informe seu nome completo"
+           required> <br><br>
+           <label for="dtDataNasc">Data de nascimento  <span>*</span>   </label>
+           <input type="date" name="dtDataNasc"> <br><br>
+           <label for="txtcpf">CPF  <span>*</span></label>
+           <input type="text" name="txtCpf" placeholder="000.000.000-00"> <br><br>
+           <label for="txtEndereco">Endereço <span>*</span></label>
+           <input type="text" name="txtEndereco"> <br><br>
+           <label for="txtMunicipio">Municipio  <span>*</span></label>
+           <input type="text" name="txtMunicipio">
+           <label for="txtBairro">Bairro</label>
+           <input type="text" name="txtBairro"> <br><br>
+           <label for="slUF">UF</label>
+           <select >
+              <option>AC</option>
+              <option>BA</option>
+              <option>CE</option>
+              <option>DF</option>
+              <option>GO</option>
+              <option>MS</option>
+              <option>MT</option>
+              <option>RJ</option>
+              <option>SP</option>
+              <option>TO</option>
+           
+           </select>
+
+           <br><br>
+
+           <label for="txtTel">Celular</label>
+           <input type="text" name="txtTel" placeholder="(99) 9 9999-9999"> <br><br>
+
+           <label for="iptEmail">E-mail</label>
+           <input type="text" name="iptEmail" placeholder="user@user.com">
+
+        </fieldset>
+        <button id="enviar">Cadastrar</button>
+        <button>Limpar</button>
+        
+
+
+
+    </form>
+    <script  type="text/javascript" src="script.js"></script>
+
+
+
+
+
+
+
+
+
+ 
+</body>
+</html>
